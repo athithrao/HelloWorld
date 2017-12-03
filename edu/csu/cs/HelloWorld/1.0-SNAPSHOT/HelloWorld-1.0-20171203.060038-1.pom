@@ -64,7 +64,10 @@
           <noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
           <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
           <branch>refs/heads/mvn-repo</branch>                       <!-- remote branch name -->
-          <includes><include>**/*</include></includes>
+          <includes>
+            <include>${project.build.directory}/lib/**/*</include>
+            <include>**/*</include>
+          </includes>
           <repositoryName>HelloWorld</repositoryName>      <!-- github repo name -->
           <repositoryOwner>athithrao</repositoryOwner>    <!-- github username  -->
         </configuration>
