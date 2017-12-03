@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>edu.csu.cs</groupId>
+  <artifactId>HelloWorld</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20171203050959</lastUpdated>
+  </versioning>
+</metadata>
